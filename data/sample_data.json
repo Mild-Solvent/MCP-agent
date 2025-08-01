@@ -1,0 +1,67 @@
+{
+  "traffic_metrics": {
+    "sessions": 1250,
+    "pageviews": 3750,
+    "users": 980,
+    "new_users": 350,
+    "pages_per_session": 3.0,
+    "bounce_rate": 42.5,
+    "average_session_duration": 185
+  },
+  "engagement_metrics": {
+    "bounce_rate": 42.5,
+    "average_session_duration": 185,
+    "pages_per_session": 3.0,
+    "session_duration_distribution": {
+      "0-30s": 25,
+      "30s-1m": 20,
+      "1m-3m": 35,
+      "3m+": 20
+    }
+  },
+  "top_pages": [
+    {"page": "/", "pageviews": 450, "unique_pageviews": 380},
+    {"page": "/products", "pageviews": 280, "unique_pageviews": 240},
+    {"page": "/about", "pageviews": 150, "unique_pageviews": 130},
+    {"page": "/blog", "pageviews": 120, "unique_pageviews": 110},
+    {"page": "/contact", "pageviews": 85, "unique_pageviews": 75}
+  ],
+  "traffic_sources": {
+    "channels": {
+      "organic_search": 45.2,
+      "direct": 28.5,
+      "social": 12.3,
+      "referral": 8.7,
+      "paid_search": 4.1,
+      "email": 1.2
+    },
+    "top_referrers": [
+      {"source": "google.com", "sessions": 320},
+      {"source": "facebook.com", "sessions": 95},
+      {"source": "twitter.com", "sessions": 65},
+      {"source": "linkedin.com", "sessions": 45}
+    ]
+  },
+  "demographic_data": {
+    "countries": [
+      {"country": "United States", "sessions": 425, "percentage": 42.1},
+      {"country": "United Kingdom", "sessions": 145, "percentage": 14.3},
+      {"country": "Canada", "sessions": 98, "percentage": 9.7},
+      {"country": "Germany", "sessions": 78, "percentage": 7.7},
+      {"country": "Australia", "sessions": 65, "percentage": 6.4}
+    ],
+    "devices": {
+      "desktop": 58.3,
+      "mobile": 36.2,
+      "tablet": 5.5
+    },
+    "age_groups": {
+      "18-24": 18.5,
+      "25-34": 32.1,
+      "35-44": 24.7,
+      "45-54": 15.2,
+      "55-64": 7.3,
+      "65+": 2.2
+    }
+  }
+}
